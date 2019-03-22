@@ -1,23 +1,27 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav{
-    background-color: lightcyan;
+    background-color: lightgrey;
     text-align: center;
-    width: 100%;
-    padding: 10px;
-    
+    width: 100%; 
+}
+
+nav header {
+    font-size: 4rem;
 }
 
 nav a {
-    font-size: 1.2rem;
-    padding: 5px;
-    line-height: 40px;
-    border: 1px solid black;
-    background-color: lightgrey;
-    display: inline-block;
+    font-size: 3rem;
+    padding: 10px;
+    border-top: 1px solid black;
+    display: block;
     white-space: nowrap;
 }
 
@@ -32,12 +36,13 @@ a:visited {
 }
 
 main{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
+    padding-top: 0px;
     margin: 15px;
+    margin-top: 0px;
 }
 .main-section{
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     padding: 30px;
 }
 
@@ -56,7 +61,18 @@ ul li {
     padding: 10px;
 }
 
+p {
+    padding: 15px;
+}
+
 .code{
     background-color: lightgray;
-    width: 350px;
+    font-size: 2.7rem;
 }
+
+#introduction {
+    border: none;
+}
+#ref{
+    border-bottom: 1px solid black;
+ }
