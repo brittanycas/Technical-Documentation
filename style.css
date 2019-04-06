@@ -10,7 +10,7 @@ body{
 nav{
     background-color: lightgrey;
     text-align: center;
-    width: 100%; 
+    width: 100%;
 }
 
 nav header {
@@ -76,3 +76,35 @@ p {
 #ref{
     border-bottom: 1px solid black;
  }
+
+ @media only screen and (min-width: 1080px) {
+   nav{
+       background-color: lightgrey;
+       text-align: left;
+       width: 300px;
+       float: left;
+       position: fixed;
+       height: 100%;
+   }
+
+   nav header {
+       font-size: 1.5rem;
+      padding: 2rem;
+   }
+
+   nav a {
+       font-size: 1.2rem;
+       padding: 10px;
+       border-top: 1px solid black;
+       display: block;
+       white-space: nowrap;
+   }
+   main{
+       width:70%;
+       float: right;
+   }
+
+   .code{
+       background-color: lightgray;
+       font-size: 1.2rem;
+   }
